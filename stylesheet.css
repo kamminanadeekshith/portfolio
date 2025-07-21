@@ -1,0 +1,147 @@
+*{
+    font-family: monospace;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#Skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section {
+    height: 100vh;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+header{ height:100vh;
+    color:white;
+    background-color: #000000;}
+body {
+    margin: 0;
+    background-color: #f0f8ff;
+    font-size: 20px;
+}
+.button{
+    height:40px;
+    width:140px;
+    border:None;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: #6a6969bd;
+}
+h1{
+    font-size: 50px;
+    color:rgb(11, 10, 10);
+    text-align: center;
+}
+header h1 {
+    
+    color: white;
+}
+#Projects table {
+    margin: 0;
+}
+main{
+    padding:20px;
+}
+.submit{
+    height:40px;
+    width:140px;
+    border:None;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.submit:hover{
+    background-color: #d8d5d5bd;
+    color: rgb(0, 0, 0);
+   
+}
+input {
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 25px;
+}
+
+footer {   
+    height: 124px;
+    background-color: black;
+    color: lightgray;
+}
+.social-links {
+    margin: 20px 0;
+    text-align: center;
+}
+.social-link {
+    margin: 0 15px;
+}
+.social-icon {
+    height: 30px;
+    width: auto;
+}
+ #about div p{
+    text-align: left;
+    margin: 20px;
+ }
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+  section.skills ol {
+    padding-left: 20px;
+  }
+  footer p{
+    color: white;
+    text-align: center;
+  }
+  img{
+    height: 300px;
+  }
+ 
+
+    
+
+
+   
